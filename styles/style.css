@@ -121,28 +121,50 @@
 .lots {
     width: 1052px;
     height: 723px;
-     
+    margin-top: 180px;
+    margin-left: 24px;
 }
 
 .card {
-    display: block;
     position: relative;
-    height: 596px;
     width: 334px;
+    height: 596px;
 }
 
 .card__image {
     display: block;
     height: 100%;
     width: 100%;
-    background-size: cover;
-    background-position: center;
+    object-fit: cover;
 }
 
-.card-text {
-    position: relative;
+.card-header {
+    position: absolute;
     color: white;
     z-index: 2;
     font-size: 22px;
-    
+    text-decoration: underline;
+    text-transform: uppercase;
+    top: 40px;
+    left: 40px;
+    right: 40px;
+    bottom: 0;
+}
+
+.card-text {
+    position: absolute;
+    font-size: 20px;
+    z-index: 2;
+    color: white;
+    bottom: 48px;
+    left: 40px;
+    right: 40px;
+}
+
+.after-lots {
+    display: block;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-top: 30px;
+    margin-left: 40px;
 }
