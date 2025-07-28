@@ -2,21 +2,27 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    padding: 93,6px 50px;
+    justify-items: center;
+    height: 293px;
+    width: 100%;
 }
 
 .header__logo-image {
-  display: block;
+    display: block;
 }
 
 .header__logo {
-    height: 148px;
-    width: 105px;
+    top: 92px;
+    height: 105px;
+    width: 148px;
 }
 
 .header__menu {
     display: flex;
     column-gap: 13px;
+    padding: 0;
+    margin: 0;
+    left: 50px;
 }
 
 .address {
@@ -25,6 +31,7 @@
     flex-direction: column;
     align-items: flex-start;
     justify-self: end;
+    font-style: normal;
 }
 
 .cover {
