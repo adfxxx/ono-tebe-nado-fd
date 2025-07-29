@@ -5,6 +5,7 @@
     justify-items: center;
     height: 293px;
     width: 100%;
+    font-size: 18px;
 }
 
 .header__logo-image {
@@ -25,7 +26,7 @@
 }
 
 .address {
-    max-width: 214px;
+    max-width: 240px;
     max-height: 98px;
     display: flex;
     flex-direction: column;
@@ -110,6 +111,7 @@
     top: 656px;
     border-color: white;
     padding: 12px 32px 11px 31px;
+    word-spacing: 0;
 }
 
 .lot {
