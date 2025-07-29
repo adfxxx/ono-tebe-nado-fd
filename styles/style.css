@@ -111,8 +111,8 @@
 
 .lot {
     margin: 0;
-    padding: 0; 
-    list-style: none; 
+    padding: 0;
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
     gap: 25px;
@@ -180,7 +180,6 @@
 .about {
     display: grid;
     margin-top: 120px;
-    height: 595px;
     grid-template-columns: 1fr 2fr;
     gap: 72px;
     height: auto;
@@ -241,7 +240,7 @@
     gap: 48px;
 }
 
-.footer__logo  {
+.footer__logo  { 
     height: 48px;
     width: 48px;
 }
