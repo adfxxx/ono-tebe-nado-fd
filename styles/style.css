@@ -19,19 +19,20 @@
 
 .header__menu {
     display: flex;
-    column-gap: 13px;
+    column-gap: 31.48px;
     left: 50px;
 }
 
 .address {
     max-width: 240px;
+    max-height: 98px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-self: end;
+    margin-left: 184px;
     font-style: normal;
     top: 95px;
+    text-align: left;
+    text-underline-offset: 3px;
 }
 
 .cover {
@@ -240,7 +241,18 @@
     gap: 48px;
 }
 
-.footer__logo  { 
+.footer__logo { 
     height: 48px;
     width: 48px;
+}
+
+.footer__address {
+    max-width: 264.57px;
+    max-height: 98px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    font-style: normal;
+    top: 95px;
+    text-align: left;
 }
