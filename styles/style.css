@@ -2,9 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
-    justify-items: center;
     height: 293px;
-    width: 100%;
     font-size: 18px;
 }
 
@@ -13,29 +11,24 @@
 }
 
 .header__logo {
-    top: 92px;
     height: 105px;
     width: 148px;
 }
 
 .header__menu {
     display: flex;
-    justify-self: start;
     column-gap: 31.48px;
     text-underline-offset: 4px;
     margin-left: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 9px;
 }
 
 .address {
     max-width: 240px;
-    max-height: 98px;
     display: flex;
     flex-direction: column;
-    justify-self: start;
-    margin-left: 184px;;
+    margin-left: 186px;
     font-style: normal;
-    text-align: left;
     text-underline-offset: 5px;
     margin-bottom: 6px;
     line-height: 24.3px;
@@ -71,7 +64,7 @@
     letter-spacing: 30px;
     color: white;
     font-size: 100px;
-    line-height: 115px;
+    line-height: 112px;
 }
 
 .aligned-text {
@@ -104,7 +97,6 @@
     text-transform: uppercase;
     word-spacing: 20px;
     color: white;
-    font-style: normal;
     font-weight: normal;
     font-size: 22px;
     top: 668px;
@@ -116,7 +108,6 @@
     text-transform: uppercase;
     word-spacing: 20px;
     color: white;
-    font-style: normal;
     font-weight: normal;
     font-size: 22px;
     top: 668px;
@@ -128,7 +119,6 @@
     text-transform: uppercase;
     word-spacing: 20px;
     color: white;
-    font-style: normal;
     font-weight: normal;
     font-size: 22px;
     top: 668px;
@@ -139,8 +129,6 @@
     position: absolute;
     text-transform: uppercase;
     color: white;
-    font-style: normal;
-    font-weight: normal;
     font-size: 22px;
 }
 
@@ -154,11 +142,8 @@
 }
 
 .lot {
-    margin: 0;
-    padding: 0;
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
     gap: 25px;
 }
 
@@ -167,12 +152,9 @@
     font-size: 40px;
     margin-left: 40px;
     margin-bottom: 27px;
-    
 }
 
 .lots {
-    width: 1052px;
-    height: 723px;
     margin-top: 180px;
     margin-left: 24px;
 }
@@ -186,7 +168,6 @@
 .card__image {
     display: block;
     height: 100%;
-    width: 100%;
     object-fit: cover;
 }
 
@@ -200,7 +181,6 @@
     top: 48px;
     left: 40px;
     right: 40px;
-    bottom: 0;
 }
 
 .card-text {
@@ -224,10 +204,9 @@
 
 .about {
     display: grid;
-    margin-top: 120px;
+    margin-top: 118px;
     grid-template-columns: 1fr 2fr;
     gap: 25px;
-    height: auto;
     margin-bottom: 180px;
 }
 
@@ -259,15 +238,13 @@
     display: grid;
     grid-column: 2;
     font-size: 20px;
-    gap: 24px;
-    margin: 0;
-    padding: 0;
+    gap: 24px;    
 }
 
 .footer {
     display: grid;
-    height: 180px;
     grid-template-columns: 1fr 1fr 1fr;
+    font-size: 18px;
 }
 
 .footer__menu {
@@ -275,12 +252,15 @@
     flex-direction: column;
     align-items: center;
     column-gap: 13px;
-    left: 50px;
     list-style-type: none;
+    text-underline-offset: 4px;
+    margin-top: 8px;
 }
 
 .footer__logos {
     display: flex;
+    margin-left: 76px;
+    margin-top: 7px;
     list-style-type: none;
     gap: 48px;
 }
@@ -290,14 +270,13 @@
     width: 48px;
 }
 
-.footer__address {
-    max-width: 264.57px;
-    max-height: 98px;
+.footer__address { 
     display: flex;
     flex-direction: column;
     margin-left: 50px;
+    margin-top: 8px;
     font-style: normal;
-    top: 95px;
     text-align: left;
     text-underline-offset: 4px;
+    line-height: 24.3px;
 }
