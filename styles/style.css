@@ -82,20 +82,19 @@
 
 .aligned-text {
   display: block;
+  text-align: left;
 }
 
 .aligned-text__left {
-  
+  margin-left: 50px;
 }
 
 .aligned-text__center {
-  top: 300px;
-  left: 380.5px;
+  margin-left: 150px;
 }
 
 .aligned-text__right {
-  top: 435px;
-  left: 663px;
+  margin-left: 250px;
 }
 
 .cover__description {
