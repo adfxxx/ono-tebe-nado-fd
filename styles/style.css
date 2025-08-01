@@ -2,12 +2,11 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  height: 293px;
+  padding: 92px 0;
   font-size: 18px;
 }
 
 .header__menu-main {
-  padding-left: 0;
   list-style-type: none;
 }
 
@@ -30,8 +29,7 @@
 
 .header__menu {
   display: flex;
-  column-gap: 31.48px;
-  margin-bottom: 9px;
+  column-gap: 13px;
   margin-left: 50px;
   text-underline-offset: 4px;
 }
@@ -50,7 +48,7 @@
 .cover {
   position: relative;
   width: 1100px;
-  height: 757px;
+  min-height: 757px;
 }
 
 .overlay {
@@ -58,16 +56,17 @@
   z-index: 1;
   min-width: 100%;
   min-height: 100%;
+  top: 0;
+  left: 0;
   background-color: rgb(0 0 0 /0.6);
 }
 
 .cover__image {
-  position: absolute;
+  background-image: url(/images/cover.jpg);
   z-index: -1;
   display: block;
-  width: 1100px;
-  height: 757px;
-  object-fit: cover;
+  background-size: cover;
+  background-position: center;
 }
 
 .cover__title {
@@ -105,7 +104,7 @@
   z-index: 2;
 }
 
-.cover__description-text-start {
+.cover__description-text {
   position: absolute;
   top: 668px;
   left: 50px;
@@ -116,29 +115,7 @@
   word-spacing: 20px;
 }
 
-.cover__description-text-middle {
-  position: absolute;
-  top: 668px;
-  left: 290px;
-  color: white;
-  font-weight: normal;
-  font-size: 22px;
-  text-transform: uppercase;
-  word-spacing: 20px;
-}
-
-.cover__description-text-finish {
-  position: absolute;
-  top: 668px;
-  left: 456px;
-  color: white;
-  font-weight: normal;
-  font-size: 22px;
-  text-transform: uppercase;
-  word-spacing: 20px;
-}
-
-.cover__description-text {
+.button__text {
   position: absolute;
   color: white;
   font-size: 22px;
@@ -148,6 +125,7 @@
 .bet-button {
   top: 654px;
   left: 792px;
+  border: 1px solid;
   border-color: white;
   padding: 12px 32px 11px 31px;
   word-spacing: 0;
@@ -158,6 +136,7 @@
   display: flex;
   gap: 25px;
   list-style: none;
+  flex-wrap: wrap;
 }
 
 .lots__heading {
@@ -180,8 +159,23 @@
 
 .card__image {
   display: block;
-  height: 100%;
-  object-fit: cover;
+  width: 334px;
+  height: 596px;
+  background-position: center;
+  background-size: cover;
+  z-index: -1;
+}
+
+.card__image-film {
+  background-image: url(./images/card-lot-01.jpg);
+}
+
+.card__image-book {
+  background-image: url(./images/card-lot-02.jpg);
+}
+
+.card__image-paint {
+  background-image: url(./images/card-lot-02.jpg);
 }
 
 .card__header {
