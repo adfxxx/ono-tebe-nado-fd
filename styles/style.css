@@ -77,16 +77,15 @@
   line-height: 112px;
   letter-spacing: 30px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .aligned-text {
-  position: absolute;
   display: block;
 }
 
 .aligned-text__left {
-  top: 165px;
-  left: 50px;
+  
 }
 
 .aligned-text__center {
@@ -105,9 +104,8 @@
 }
 
 .cover__description-text {
-  position: absolute;
-  top: 668px;
-  left: 50px;
+  margin-top: 330px;
+  margin-left: 50px;
   color: white;
   font-weight: normal;
   font-size: 22px;
@@ -154,7 +152,7 @@
 .card {
   position: relative;
   width: 334px;
-  height: 596px;
+  min-height: 596px;
 }
 
 .card__image {
@@ -167,19 +165,19 @@
 }
 
 .card__image-film {
-  background-image: url(./images/card-lot-01.jpg);
+  background-image: url(/images/card-lot-01.jpg);
 }
 
 .card__image-book {
-  background-image: url(./images/card-lot-02.jpg);
+  background-image: url(/images/card-lot-02.jpg);
 }
 
 .card__image-paint {
-  background-image: url(./images/card-lot-02.jpg);
+  background-image: url(/images/card-lot-02.jpg);
 }
 
 .card__header {
-  position: absolute;
+  
   top: 48px;
   right: 40px;
   left: 40px;
@@ -191,7 +189,7 @@
 }
 
 .card__text {
-  position: absolute;
+  
   right: 40px;
   bottom: 48px;
   left: 40px;
@@ -255,7 +253,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  height: 180px;
+  padding-bottom: 82px;
   font-size: 18px;
 }
 
